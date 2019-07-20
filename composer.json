@@ -8,7 +8,7 @@
   "require": {
     "laravel/framework": "5.7.*|5.8.*",
     "jenssegers/date": "^3.0",
-    "febalist/calendar": "^3.0|dev-master"
+    "febalist/calendar": "^4.0|dev-master"
   },
   "extra": {
     "laravel": {
