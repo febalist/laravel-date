@@ -3,7 +3,10 @@
   "autoload": {
     "psr-4": {
       "Febalist\\Laravel\\Date\\": "src/"
-    }
+    },
+    "files": [
+      "src/helpers.php"
+    ]
   },
   "require": {
     "dater/dater": "^2.0",

@@ -13,15 +13,15 @@ class DateServiceProvider extends ServiceProvider
         DateFactory::useClass(Date::class);
 
         Blade::directive('datetime', function ($expression) {
-            return "<?php echo dater()->datetime($expression); ?>";
+            return "<?php echo $expression ? dater()->datetime($expression) : ''; ?>";
         });
 
         Blade::directive('date', function ($expression) {
-            return "<?php echo dater()->date($expression); ?>";
+            return "<?php echo $expression ? dater()->date($expression) : ''; ?>";
         });
 
         Blade::directive('time', function ($expression) {
-            return "<?php echo dater()->time($expression); ?>";
+            return "<?php echo $expression ? dater()->time($expression) : ''; ?>";
         });
     }
 

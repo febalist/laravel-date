@@ -1,9 +1,8 @@
 <?php
 
-namespace Febalist\Laravel\Date;
-
 use Dater\Dater;
 use Dater\Locale\En;
+use Febalist\Laravel\Date\Date;
 
 if (!function_exists('carbon')) {
     /** @return Date */
