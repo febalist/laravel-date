@@ -10,7 +10,7 @@
   },
   "require": {
     "dater/dater": "^2.0",
-    "jenssegers/date": "^3.0",
+    "jenssegers/date": "^4.0",
     "febalist/calendar": "^4.0"
   },
   "extra": {
