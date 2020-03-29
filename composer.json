@@ -12,7 +12,7 @@
     "dater/dater": "^2.0",
     "laravel/framework": "5.7.*|5.8.*|^6.0",
     "jenssegers/date": "^3.0",
-    "febalist/calendar": "^4.0|dev-master"
+    "febalist/calendar": "^4.0"
   },
   "extra": {
     "laravel": {
